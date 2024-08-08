@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 book:
-  title: "Title"
+  title: "Quesnel-Bowron Watershed Connectivity Remediation Plan: 2024 - <year>"
   author: "Canadian Wildlife Federation"
   date: last-modified
   date-format: "DD-MM-YYYY"
