@@ -47,38 +47,38 @@ SAMPLE The primary geographic scope of this WCRP is the Bulkley River watershed,
 
 ```{=html}
 <style type="text/css">
-#T_69e01 th {
+#T_4c285 th {
   background-color: #008270;
   text-align: left;
 }
-#T_69e01_row0_col0, #T_69e01_row0_col1, #T_69e01_row0_col2, #T_69e01_row1_col0, #T_69e01_row1_col1, #T_69e01_row1_col2, #T_69e01_row2_col0, #T_69e01_row2_col1, #T_69e01_row2_col2 {
+#T_4c285_row0_col0, #T_4c285_row0_col1, #T_4c285_row0_col2, #T_4c285_row1_col0, #T_4c285_row1_col1, #T_4c285_row1_col2, #T_4c285_row2_col0, #T_4c285_row2_col1, #T_4c285_row2_col2 {
   background-color: white;
   text-align: left;
 }
 </style>
-<table id="T_69e01">
+<table id="T_4c285">
   <thead>
     <tr>
-      <th id="T_69e01_level0_col0" class="col_heading level0 col0" >Secwepemctsín</th>
-      <th id="T_69e01_level0_col1" class="col_heading level0 col1" >Common Name</th>
-      <th id="T_69e01_level0_col2" class="col_heading level0 col2" >Scientific Name</th>
+      <th id="T_4c285_level0_col0" class="col_heading level0 col0" >Secwepemctsín</th>
+      <th id="T_4c285_level0_col1" class="col_heading level0 col1" >Common Name</th>
+      <th id="T_4c285_level0_col2" class="col_heading level0 col2" >Scientific Name</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_69e01_row0_col0" class="data row0 col0" >Kekèsu</td>
-      <td id="T_69e01_row0_col1" class="data row0 col1" >Chinook Salmon</td>
-      <td id="T_69e01_row0_col2" class="data row0 col2" >Oncorhynchus tshawytscha</td>
+      <td id="T_4c285_row0_col0" class="data row0 col0" >Kekèsu</td>
+      <td id="T_4c285_row0_col1" class="data row0 col1" >Chinook Salmon</td>
+      <td id="T_4c285_row0_col2" class="data row0 col2" >Oncorhynchus tshawytscha</td>
     </tr>
     <tr>
-      <td id="T_69e01_row1_col0" class="data row1 col0" >Sxeyqs</td>
-      <td id="T_69e01_row1_col1" class="data row1 col1" >Coho Salmon</td>
-      <td id="T_69e01_row1_col2" class="data row1 col2" >Oncorhynchus kisutch</td>
+      <td id="T_4c285_row1_col0" class="data row1 col0" >Sxeyqs</td>
+      <td id="T_4c285_row1_col1" class="data row1 col1" >Coho Salmon</td>
+      <td id="T_4c285_row1_col2" class="data row1 col2" >Oncorhynchus kisutch</td>
     </tr>
     <tr>
-      <td id="T_69e01_row2_col0" class="data row2 col0" >Sqlelten7ùwi</td>
-      <td id="T_69e01_row2_col1" class="data row2 col1" >Sockeye Salmon</td>
-      <td id="T_69e01_row2_col2" class="data row2 col2" >Oncorhynchus nerka</td>
+      <td id="T_4c285_row2_col0" class="data row2 col0" >Sqlelten7ùwi</td>
+      <td id="T_4c285_row2_col1" class="data row2 col1" >Sockeye Salmon</td>
+      <td id="T_4c285_row2_col2" class="data row2 col2" >Oncorhynchus nerka</td>
     </tr>
   </tbody>
 </table>
@@ -133,87 +133,87 @@ SAMPLE The following table highlights which barrier types pose the greatest thre
 
 ```{=html}
 <style type="text/css">
-#T_55370 th {
+#T_ed41d th {
   background-color: #008270;
   text-align: left;
 }
-#T_55370_row0_col0, #T_55370_row1_col0, #T_55370_row2_col0, #T_55370_row3_col0, #T_55370_row4_col0 {
+#T_ed41d_row0_col0, #T_ed41d_row1_col0, #T_ed41d_row2_col0, #T_ed41d_row3_col0, #T_ed41d_row4_col0 {
   background-color: white;
 }
-#T_55370_row0_col1, #T_55370_row0_col2, #T_55370_row2_col1, #T_55370_row2_col2, #T_55370_row3_col1, #T_55370_row3_col2, #T_55370_row4_col3 {
+#T_ed41d_row0_col1, #T_ed41d_row2_col1, #T_ed41d_row3_col1, #T_ed41d_row3_col2, #T_ed41d_row4_col3 {
   background-color: #03853e;
 }
-#T_55370_row0_col3, #T_55370_row3_col3, #T_55370_row4_col1 {
+#T_ed41d_row0_col2, #T_ed41d_row1_col2, #T_ed41d_row2_col2 {
+  background-color: #ff0000;
+}
+#T_ed41d_row0_col3, #T_ed41d_row3_col3, #T_ed41d_row4_col1 {
   background-color: #92d050;
 }
-#T_55370_row0_col4 {
+#T_ed41d_row0_col4 {
   font-weight: bold;
   background-color: #ff0000;
 }
-#T_55370_row1_col1, #T_55370_row1_col3, #T_55370_row2_col3, #T_55370_row4_col2 {
+#T_ed41d_row1_col1, #T_ed41d_row1_col3, #T_ed41d_row2_col3, #T_ed41d_row4_col2 {
   background-color: #ffff00;
 }
-#T_55370_row1_col2 {
-  background-color: #ff0000;
-}
-#T_55370_row1_col4 {
+#T_ed41d_row1_col4 {
   font-weight: bold;
   background-color: #ffff00;
 }
-#T_55370_row2_col4 {
+#T_ed41d_row2_col4 {
   font-weight: bold;
   background-color: #92d050;
 }
-#T_55370_row3_col4, #T_55370_row4_col4 {
+#T_ed41d_row3_col4, #T_ed41d_row4_col4 {
   font-weight: bold;
   background-color: #03853e;
 }
 </style>
-<table id="T_55370">
+<table id="T_ed41d">
   <thead>
     <tr>
-      <th id="T_55370_level0_col0" class="col_heading level0 col0" >Barrier Types</th>
-      <th id="T_55370_level0_col1" class="col_heading level0 col1" >Extent</th>
-      <th id="T_55370_level0_col2" class="col_heading level0 col2" >Severity</th>
-      <th id="T_55370_level0_col3" class="col_heading level0 col3" >Irreversibility</th>
-      <th id="T_55370_level0_col4" class="col_heading level0 col4" >Overall Threat Rating:</th>
+      <th id="T_ed41d_level0_col0" class="col_heading level0 col0" >Barrier Types</th>
+      <th id="T_ed41d_level0_col1" class="col_heading level0 col1" >Extent</th>
+      <th id="T_ed41d_level0_col2" class="col_heading level0 col2" >Severity</th>
+      <th id="T_ed41d_level0_col3" class="col_heading level0 col3" >Irreversibility</th>
+      <th id="T_ed41d_level0_col4" class="col_heading level0 col4" >Overall Threat Rating:</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_55370_row0_col0" class="data row0 col0" >Road-Stream Crossings</td>
-      <td id="T_55370_row0_col1" class="data row0 col1" >Low</td>
-      <td id="T_55370_row0_col2" class="data row0 col2" >Low</td>
-      <td id="T_55370_row0_col3" class="data row0 col3" >Medium</td>
-      <td id="T_55370_row0_col4" class="data row0 col4" >Very High</td>
+      <td id="T_ed41d_row0_col0" class="data row0 col0" >Road-Stream Crossings</td>
+      <td id="T_ed41d_row0_col1" class="data row0 col1" >Low</td>
+      <td id="T_ed41d_row0_col2" class="data row0 col2" >Very High</td>
+      <td id="T_ed41d_row0_col3" class="data row0 col3" >Medium</td>
+      <td id="T_ed41d_row0_col4" class="data row0 col4" >Very High</td>
     </tr>
     <tr>
-      <td id="T_55370_row1_col0" class="data row1 col0" >Lateral Barriers</td>
-      <td id="T_55370_row1_col1" class="data row1 col1" >High</td>
-      <td id="T_55370_row1_col2" class="data row1 col2" >Very High</td>
-      <td id="T_55370_row1_col3" class="data row1 col3" >High</td>
-      <td id="T_55370_row1_col4" class="data row1 col4" >High</td>
+      <td id="T_ed41d_row1_col0" class="data row1 col0" >Lateral Barriers</td>
+      <td id="T_ed41d_row1_col1" class="data row1 col1" >High</td>
+      <td id="T_ed41d_row1_col2" class="data row1 col2" >Very High</td>
+      <td id="T_ed41d_row1_col3" class="data row1 col3" >High</td>
+      <td id="T_ed41d_row1_col4" class="data row1 col4" >High</td>
     </tr>
     <tr>
-      <td id="T_55370_row2_col0" class="data row2 col0" >Small Dams(<3m height)</td>
-      <td id="T_55370_row2_col1" class="data row2 col1" >Low</td>
-      <td id="T_55370_row2_col2" class="data row2 col2" >Low</td>
-      <td id="T_55370_row2_col3" class="data row2 col3" >High</td>
-      <td id="T_55370_row2_col4" class="data row2 col4" >Medium</td>
+      <td id="T_ed41d_row2_col0" class="data row2 col0" >Small Dams(<3m height)</td>
+      <td id="T_ed41d_row2_col1" class="data row2 col1" >Low</td>
+      <td id="T_ed41d_row2_col2" class="data row2 col2" >Very High</td>
+      <td id="T_ed41d_row2_col3" class="data row2 col3" >High</td>
+      <td id="T_ed41d_row2_col4" class="data row2 col4" >Medium</td>
     </tr>
     <tr>
-      <td id="T_55370_row3_col0" class="data row3 col0" >Trail-stream Crossings</td>
-      <td id="T_55370_row3_col1" class="data row3 col1" >Low</td>
-      <td id="T_55370_row3_col2" class="data row3 col2" >Low</td>
-      <td id="T_55370_row3_col3" class="data row3 col3" >Medium</td>
-      <td id="T_55370_row3_col4" class="data row3 col4" >Low</td>
+      <td id="T_ed41d_row3_col0" class="data row3 col0" >Trail-stream Crossings</td>
+      <td id="T_ed41d_row3_col1" class="data row3 col1" >Low</td>
+      <td id="T_ed41d_row3_col2" class="data row3 col2" >Low</td>
+      <td id="T_ed41d_row3_col3" class="data row3 col3" >Medium</td>
+      <td id="T_ed41d_row3_col4" class="data row3 col4" >Low</td>
     </tr>
     <tr>
-      <td id="T_55370_row4_col0" class="data row4 col0" >Natural Barriers</td>
-      <td id="T_55370_row4_col1" class="data row4 col1" >Medium</td>
-      <td id="T_55370_row4_col2" class="data row4 col2" >High</td>
-      <td id="T_55370_row4_col3" class="data row4 col3" >Low</td>
-      <td id="T_55370_row4_col4" class="data row4 col4" >Low</td>
+      <td id="T_ed41d_row4_col0" class="data row4 col0" >Natural Barriers</td>
+      <td id="T_ed41d_row4_col1" class="data row4 col1" >Medium</td>
+      <td id="T_ed41d_row4_col2" class="data row4 col2" >High</td>
+      <td id="T_ed41d_row4_col3" class="data row4 col3" >Low</td>
+      <td id="T_ed41d_row4_col4" class="data row4 col4" >Low</td>
     </tr>
   </tbody>
 </table>

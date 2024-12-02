@@ -32,33 +32,33 @@ SAMPLE The primary conservation outcome of the WCRP is the remediation of barrie
 
 ```{=html}
 <style type="text/css">
-#T_25069 th {
+#T_9c1aa th {
   background-color: #008270;
   text-align: left;
 }
-#T_25069_row0_col0, #T_25069_row0_col1, #T_25069_row0_col2, #T_25069_row0_col3, #T_25069_row0_col4, #T_25069_row0_col5 {
+#T_9c1aa_row0_col0, #T_9c1aa_row0_col1, #T_9c1aa_row0_col2, #T_9c1aa_row0_col3, #T_9c1aa_row0_col4, #T_9c1aa_row0_col5 {
   text-align: left;
 }
 </style>
-<table id="T_25069">
+<table id="T_9c1aa">
   <thead>
     <tr>
-      <th id="T_25069_level0_col0" class="col_heading level0 col0" >Habitat Type</th>
-      <th id="T_25069_level0_col1" class="col_heading level0 col1" >Currently accessible (km)</th>
-      <th id="T_25069_level0_col2" class="col_heading level0 col2" >Total</th>
-      <th id="T_25069_level0_col3" class="col_heading level0 col3" >Current Connectivity Status</th>
-      <th id="T_25069_level0_col4" class="col_heading level0 col4" >Goal</th>
-      <th id="T_25069_level0_col5" class="col_heading level0 col5" >Gain required (km)</th>
+      <th id="T_9c1aa_level0_col0" class="col_heading level0 col0" >Habitat Type</th>
+      <th id="T_9c1aa_level0_col1" class="col_heading level0 col1" >Currently accessible (km)</th>
+      <th id="T_9c1aa_level0_col2" class="col_heading level0 col2" >Total</th>
+      <th id="T_9c1aa_level0_col3" class="col_heading level0 col3" >Current Connectivity Status</th>
+      <th id="T_9c1aa_level0_col4" class="col_heading level0 col4" >Goal</th>
+      <th id="T_9c1aa_level0_col5" class="col_heading level0 col5" >Gain required (km)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_25069_row0_col0" class="data row0 col0" >Spawning and Rearing</td>
-      <td id="T_25069_row0_col1" class="data row0 col1" >326.28</td>
-      <td id="T_25069_row0_col2" class="data row0 col2" >355.26</td>
-      <td id="T_25069_row0_col3" class="data row0 col3" >92%</td>
-      <td id="T_25069_row0_col4" class="data row0 col4" >96%</td>
-      <td id="T_25069_row0_col5" class="data row0 col5" >14.77</td>
+      <td id="T_9c1aa_row0_col0" class="data row0 col0" >Spawning and Rearing</td>
+      <td id="T_9c1aa_row0_col1" class="data row0 col1" >4045.69</td>
+      <td id="T_9c1aa_row0_col2" class="data row0 col2" >4487.15</td>
+      <td id="T_9c1aa_row0_col3" class="data row0 col3" >85%</td>
+      <td id="T_9c1aa_row0_col4" class="data row0 col4" >96%</td>
+      <td id="T_9c1aa_row0_col5" class="data row0 col5" >261.97</td>
     </tr>
   </tbody>
 </table>
