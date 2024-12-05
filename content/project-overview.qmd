@@ -13,17 +13,29 @@ warnings.filterwarnings('ignore')
 
 library(reticulate)
 api <- import("python.api_calls")
-gain <- api$gain
-num_dam <- api$num_dam
-km_dam <- api$km_dam
-pct_dam <- api$pct_dam
-resource_km <- api$resource_km
-resource_pct <- api$resource_pct
-demo_km <- api$demo_km
-demo_pct <- api$demo_pct
-resource_sev <- api$resource_sev
-demo_sev <- api$demo_sev
-sum_road <- api$sum_road
+gain_bowr <- api$gain_bowr
+num_dam_bowr <- api$num_dam_bowr
+km_dam_bowr <- api$km_dam_bowr
+pct_dam_bowr <- api$pct_dam_bowr
+resource_km_bowr <- api$resource_km_bowr
+resource_pct_bowr <- api$resource_pct_bowr
+demo_km_bowr <- api$demo_km_bowr
+demo_pct_bowr <- api$demo_pct_bowr
+resource_sev_bowr <- api$resource_sev_bowr
+demo_sev_bowr <- api$demo_sev_bowr
+sum_road_bowr <- api$sum_road_bowr
+
+gain_ques_carr <- api$gain_ques_carr
+num_dam_ques_carr <- api$num_dam_ques_carr
+km_dam_ques_carr <- api$km_dam_ques_carr
+pct_dam_ques_carr <- api$pct_dam_ques_carr
+resource_km_ques_carr <- api$resource_km_ques_carr
+resource_pct_ques_carr <- api$resource_pct_ques_carr
+demo_km_ques_carr <- api$demo_km_ques_carr
+demo_pct_ques_carr <- api$demo_pct_ques_carr
+resource_sev_ques_carr <- api$resource_sev_ques_carr
+demo_sev_ques_carr <- api$demo_sev_ques_carr
+sum_road_ques_carr <- api$sum_road_ques_carr
 
 ```
 
@@ -132,28 +144,28 @@ def condition(pct):
     return rating
 
 #rating classifier
-def rating(threat, barrier):
+def rating(threat, barrier, watershed):
     if threat == "extent":
         if barrier == "DAM":
-            pct = api.barrier_extent(barrier)[1]
+            pct = api.barrier_extent(barrier, watershed)[1]
             rating = condition(pct)
         elif barrier == "ROAD":
-            pct = api.barrier_extent('ROAD, RESOURCE/OTHER')[1] + api.barrier_extent('ROAD, DEMOGRAPHIC')[1]
+            pct = api.barrier_extent('ROAD, RESOURCE/OTHER', watershed)[1] + api.barrier_extent('ROAD, DEMOGRAPHIC', watershed)[1]
             rating = condition(pct)
     elif threat == "severity":
         if barrier == "DAM":
-            pct = api.barrier_severity(barrier)[2]
+            pct = api.barrier_severity(barrier, watershed)[2]
             rating = condition(pct)
         elif barrier == "ROAD":
-            pct = api.barrier_severity('ROAD, RESOURCE/OTHER')[2] + api.barrier_severity('ROAD, DEMOGRAPHIC')[2]
+            pct = api.barrier_severity('ROAD, RESOURCE/OTHER', watershed)[2] + api.barrier_severity('ROAD, DEMOGRAPHIC', watershed)[2]
             rating = condition(pct)
             
     return rating
             
 
 df = pd.DataFrame({"Barrier Types":["Road-Stream Crossings","Lateral Barriers","Small Dams(<3m height)","Trail-stream Crossings", "Natural Barriers"],
-                   "Extent":[rating("extent", "ROAD"),"High",rating("extent", "DAM"), "Low", "Medium"],
-                   "Severity":[rating("severity", "ROAD"),"Very High",rating("severity", "DAM"), "Low", "High"],
+                   "Extent":[rating("extent", "ROAD", "BOWR"),"High",rating("extent", "DAM", "BOWR"), "Low", "Medium"],
+                   "Severity":[rating("severity", "ROAD", "BOWR"),"Very High",rating("severity", "DAM", "BOWR"), "Low", "High"],
                    "Irreversibility":["Medium","High","High", "Medium", "Low"],
                    "Overall Threat Rating:":["Very High","High","Medium", "Low", "Low"]
                    }).style.set_properties(subset=["Overall Threat Rating:"], **{'font-weight': 'bold'})
