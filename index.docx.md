@@ -1,4 +1,0 @@
-![](spawn.jpg)
-
-## Acknowledgements {-}
-
